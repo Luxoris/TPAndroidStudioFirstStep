@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Space Sheep App</string>
+    <string name="settings">Paramètres</string>
+    <string name="title_activity_test">test</string>
+    <string name="title_activity_linear_layout">LinearLayout</string>
+    <string name="title_activity_horizontal_linear_layout">HorizontalLinearLayout</string>
+    <string name="annuler">Annuler</string>
+    <string name="valider">Valider</string>
+    <string name="prenom">Prénom</string>
+    <string name="nom">Nom</string>
+    <string name="e_mail">Courriel</string>
+    <string name="female_desc">Femme</string>
+    <string name="name_desc">Entrez votre nom !</string>
+    <string name="firstname_desc">Entrez votre Prénom !</string>
+    <string name="email_desc">Entrez votre courriel !</string>
+    <string name="male">Homme</string>
+    <string name="envoie_des_informations">Envoie des informations :</string>
+</resources>

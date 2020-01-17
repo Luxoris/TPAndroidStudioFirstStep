@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentTop="false"
+    android:layout_alignParentRight="false"
+    android:layout_alignParentEnd="false">
+
+    <EditText
+        android:id="@+id/E-mail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Firstname"
+        android:layout_alignEnd="@id/Firstname"
+        android:layout_alignRight="@id/Firstname"
+        android:autofillHints=""
+        android:contentDescription="@string/e_mail"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:selectAllOnFocus="true"
+        tools:text="e-mail" />
+
+    <EditText
+        android:id="@+id/Firstname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Name"
+        android:layout_alignEnd="@id/Name"
+        android:layout_alignRight="@id/Name"
+        android:autofillHints=""
+        android:contentDescription="@string/prenom"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:selectAllOnFocus="true"
+        android:text="@string/prenom" />
+
+    <EditText
+        android:id="@+id/Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:autofillHints=""
+        android:contentDescription="@string/nom"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:selectAllOnFocus="true"
+        android:text="@string/nom" />
+
+    <Button
+        android:id="@+id/Submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/E-mail"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="false"
+        android:text="@string/valider" />
+
+    <Button
+        android:id="@+id/Cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/Submit"
+        android:layout_toLeftOf="@id/Submit"
+        android:text="@string/annuler"
+        android:layout_toStartOf="@id/Submit" />
+</RelativeLayout>

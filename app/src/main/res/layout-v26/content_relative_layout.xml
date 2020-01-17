@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentEnd="false">
+
+    <EditText
+        android:id="@+id/E-mail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Firstname"
+        android:layout_alignEnd="@id/Firstname"
+        android:autofillHints=""
+        android:hint="@string/e_mail"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/Firstname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Name"
+        android:layout_alignEnd="@id/Name"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/prenom"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView11"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentEnd="true"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/nom"
+        android:inputType="textPersonName" />
+
+    <CheckBox
+        android:id="@+id/male"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/E-mail"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="0dp"
+        android:text="@string/male" />
+
+    <CheckBox
+        android:id="@+id/female"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/male"
+        android:layout_toStartOf="@id/male"
+        android:text="@string/female_desc" />
+
+    <Button
+        android:id="@+id/Submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/male"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="2dp"
+        android:text="@string/valider" />
+
+    <Button
+        android:id="@+id/Cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/Submit"
+        android:layout_toStartOf="@id/Submit"
+        android:text="@string/annuler" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|center_vertical"
+        android:text="@string/envoie_des_informations"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+</RelativeLayout>

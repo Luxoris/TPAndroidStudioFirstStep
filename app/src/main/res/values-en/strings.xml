@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Space Sheep App</string>
+    <string name="annuler">Cancel</string>
+    <string name="drawofasheep">Drawing of a sheep</string>
+    <string name="e_mail">E-mail</string>
+    <string name="email_desc">Enter your email !</string>
+    <string name="envoie_des_informations">Sending informations</string>
+    <string name="female_desc">Woman</string>
+    <string name="firstname_desc">Enter your Firstname</string>
+    <string name="game_title">Space Sheep</string>
+    <string name="male">Man</string>
+    <string name="name_desc">Enter your name !</string>
+    <string name="nom">Name</string>
+    <string name="prenom">FirstName</string>
+    <string name="settings">Settings</string>
+    <string name="title_activity_horizontal_linear_layout">HorizontalLinearLayout</string>
+    <string name="title_activity_linear_layout">LinearLayout</string>
+    <string name="title_activity_test">test</string>
+    <string name="valider">Submit</string>
+</resources>
